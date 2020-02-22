@@ -6,7 +6,7 @@ $message = []
 $user = ''
 $online = false
 $user_cnt = 0
-$msg_cnt
+$msg_cnt = 0
 def connect_to_db
   $client = Mysql2::Client.new(:host => "sql9.freemysqlhosting.net", :username => "sql9323521", :password => "WgmexVI9VE", :database => "sql9323521", :port => "3306")
 end
